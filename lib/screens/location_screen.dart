@@ -28,6 +28,10 @@ class _LocationScreenState extends State<LocationScreen> {
     updateUI(widget.locationWeather);
   }
 
+  /**
+   * @param dynamic weatherData
+   * @return void
+   */
   void updateUI(dynamic weatherData) {
     setState(() {
       if (weatherData == null) {
